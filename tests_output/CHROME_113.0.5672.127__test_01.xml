@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="test_01"
+    errors="0" failures="0" hostname="" id="" package="test_01" skipped="0"
+    tests="3" time="27.16" timestamp="">
+  
+    <testcase name="Validates search" classname="test_01" time="0.1640" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Make the search" classname="test_01" time="5.720" assertions="0">
+    </testcase>
+  
+    <testcase name="Validate search results" classname="test_01" time="5.869" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,25 @@
+{
+  "name": "apex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Test01-local": "npx nightwatch e2e/tests/test_01.js --env local",
+    "Test01-production": "npx nightwatch e2e/tests/test_01.js --env production",
+    "Test02-local": "npx nightwatch e2e/tests/test_02.js --env local",
+    "Test02-production": "npx nightwatch e2e/tests/test_02.js --env production",
+    "Test03-local": "npx nightwatch e2e/tests/test_03.js --env local",
+    "Test03-production": "npx nightwatch e2e/tests/test_03.js --env production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kenia Gomez",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.1.2",
+    "chromedriver": "^113.0.0",
+    "chromium": "^3.0.3",
+    "geckodriver": "^4.0.0",
+    "nightwatch": "^2.6.21"
+  }
+}
