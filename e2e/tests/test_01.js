@@ -36,6 +36,7 @@ it('Validate search results', async (browser) => {
     await psp5.waitForElementVisible('@psp5Price',5000,'Playstation5 price found')
     await psp5.assert.textContains('@psp5Price','$12,999')
     psp5.pause(4000)
+    await psp5.saveScreenshot('./e2e/screenshots/Playstation5Results.png')
 
 })
 

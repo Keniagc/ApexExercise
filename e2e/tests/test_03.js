@@ -29,7 +29,8 @@ it('Displayed and filter the results displayed by “Dior” brand', async (brow
     await smarttv.click('@searchBrands')
     await smarttv.setValue('@searchBrands', 'Dior')
     await dior.click('@diorBrandField')
-    dior.pause(7000)
+    dior.pause(2000)
+    await dior.saveScreenshot('./e2e/screenshots/DiorPerfumResults.png')
 
 })
 

@@ -52,7 +52,8 @@ it('Filter the results', async(browser) => {
         this.assert.equal(numberExpected,'(5 resultados)',"Si son 5 resultados");
     })
     //await smarttv.assert.textContains('@numberResult','(5 resultados)','Si son 5 resultados')
-    smarttv.pause(5000)
+    smarttv.pause(2000)
+    await smarttv.saveScreenshot('./e2e/screenshots/SmartTVResults.png')
 
 })
 
