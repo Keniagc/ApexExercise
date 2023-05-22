@@ -5,9 +5,9 @@
 
   <testsuite name="test_03"
     errors="0" failures="0" hostname="" id="" package="test_03" skipped="0"
-    tests="2" time="41.19" timestamp="">
+    tests="2" time="30.90" timestamp="">
   
-    <testcase name="Open &#34;categorias&#34; menu" classname="test_03" time="10.85" assertions="3">
+    <testcase name="Open &#34;categorias&#34; menu" classname="test_03" time="10.75" assertions="3">
 
     
 
@@ -16,7 +16,7 @@
     
     </testcase>
   
-    <testcase name="Displayed and filter the results displayed by “Dior” brand" classname="test_03" time="7.795" assertions="1">
+    <testcase name="Displayed and filter the results displayed by “Dior” brand" classname="test_03" time="3.213" assertions="1">
 
     
     </testcase>

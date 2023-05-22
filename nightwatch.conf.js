@@ -2,10 +2,10 @@ const chromium = require('chromium'); //This is for linux in case for a pipeline
 
 const defaultChromeArgs = [
 '--window-size=1300,800',
-'--disable-gpu', //no consume memoria
+'--disable-gpu', 
 '--no-sandbox',
-'--disable-dev-shm-usage', //lo mismo de la memoria
-// '--headless' ----no se abra la ventana en mi computadora 
+'--disable-dev-shm-usage', 
+// '--headless' 
 ];
 module.exports = {
 // An array of folders (excluding subfolders) where your tests are located;
@@ -43,12 +43,14 @@ launch_url: '',
 screenshots: {
 enabled: true,
 path: 'e2e/screenshots',
+on_failure: true,
+        on_error: true
 },
 
 desiredCapabilities: {
 browserName: 'chrome',
-acceptInsecureCerts: true, //cuando es local host te dice no por seguridad 
-acceptSslCerts: true, //por lo mismo de seguridad 
+acceptInsecureCerts: true, 
+acceptSslCerts: true, 
 chromeOptions: {
 args: defaultChromeArgs,
 }
@@ -58,7 +60,7 @@ webdriver: {
 start_process: true, 
 //server_path: 'node_modules/chromedriver/lib/chromedriver/chromedriver',
 },
-skip_testcases_on_fail: false //para que no se detenga 
+skip_testcases_on_fail: false  
 },
 production_chromium: {
 launch_url: 'https://www.liverpool.com.mx/tienda/home',
@@ -92,7 +94,7 @@ args: [...defaultChromeArgs, '--headless']
 
 local: {
 launch_url: 'https://www.liverpool.com.mx/tienda/home',
-//launch_url: 'https://localhost:5000/', ---depende en que puerto este el proyecto
+//launch_url: 'https://localhost:5000/',
 screenshots: {
 enabled: false,
 path: 'e2e/screenshots',

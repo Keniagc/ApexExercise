@@ -5,26 +5,26 @@
 
   <testsuite name="test_02"
     errors="0" failures="0" hostname="" id="" package="test_02" skipped="0"
-    tests="4" time="49.03" timestamp="">
+    tests="4" time="41.49" timestamp="">
   
-    <testcase name="Validates search" classname="test_02" time="0.1380" assertions="2">
+    <testcase name="Validates search" classname="test_02" time="0.1270" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Make the search" classname="test_02" time="5.713" assertions="0">
+    <testcase name="Make the search" classname="test_02" time="5.525" assertions="0">
     </testcase>
   
-    <testcase name="Validate search results" classname="test_02" time="2.166" assertions="2">
+    <testcase name="Validate search results" classname="test_02" time="2.141" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Filter the results" classname="test_02" time="14.42" assertions="5">
+    <testcase name="Filter the results" classname="test_02" time="11.30" assertions="5">
 
     
 

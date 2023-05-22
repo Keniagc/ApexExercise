@@ -5,19 +5,19 @@
 
   <testsuite name="test_01"
     errors="0" failures="0" hostname="" id="" package="test_01" skipped="0"
-    tests="3" time="28.48" timestamp="">
+    tests="3" time="28.79" timestamp="">
   
-    <testcase name="Validates search" classname="test_01" time="0.1220" assertions="2">
+    <testcase name="Validates search" classname="test_01" time="0.09500" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Make the search" classname="test_01" time="5.839" assertions="0">
+    <testcase name="Make the search" classname="test_01" time="5.689" assertions="0">
     </testcase>
   
-    <testcase name="Validate search results" classname="test_01" time="6.432" assertions="8">
+    <testcase name="Validate search results" classname="test_01" time="6.006" assertions="8">
 
     
 
